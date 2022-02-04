@@ -11,7 +11,7 @@ public class CalculadoraDeDesconto {
             new DescontoPorQuantidade(
                 new SemDesconto()
             )
-        ).calcular(orcamento);
+        ).efetuarCalculo(orcamento);
         return desconto;
     }
 }
